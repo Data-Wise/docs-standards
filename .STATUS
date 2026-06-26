@@ -1,0 +1,18 @@
+# Documentation Standards
+
+## Status: active
+## Progress: 60
+## Focus: Research-ops contract + ADRs (the cross-tool ownership home)
+
+## Overview
+Templates and guidelines for consistent documentation across projects; home of the Project Settings Contract
+and the research-ops Architecture Decision Records.
+
+## Next
+- Add an ADR index (`adr/README.md`); link `research-ops/overview.md` from each repo + the website (FW-21)
+- Keep ADR-001/002/003 + the contract current as the platform evolves
+
+## Shipped (2026-06)
+- **ADR-001** research-ops ecosystem ownership + **PROJECT-SETTINGS-CONTRACT.md** (enforced by `atlas doctor`)
+- **ADR-002** sync research-metadata ownership · **ADR-003** scanner depth / umbrella policy
+- **research-ops/overview.md** — cross-tool front door + pipeline diagram
