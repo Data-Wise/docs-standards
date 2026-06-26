@@ -23,6 +23,13 @@ altdoc::setup_docs("quarto_website")
 
 ---
 
+## Project Settings Contract & ADRs
+
+Cross-tool decisions and the **born-ready project contract** live here:
+
+- [`adr/ADR-001-research-ops-ecosystem-ownership.md`](adr/ADR-001-research-ops-ecosystem-ownership.md) — research-ops ownership map + Project Settings Contract.
+- [`PROJECT-SETTINGS-CONTRACT.md`](PROJECT-SETTINGS-CONTRACT.md) — the checklist every project must satisfy (`.STATUS`, `.obs/sync.yml`, `CLAUDE.md`, atlas registration), **enforced by `atlas doctor`**.
+
 ## Files
 
 | File | Purpose |
